@@ -10,6 +10,7 @@ async function fetchProgress(){
     'Referer': 'https://brawlstars.inbox.supercell.com/',
     }
   });
+  console.log(res.body)
   var json = await res.json();
   var progressPercent = json.entries.eventEntries[0].tracker.progress;
   var progress = Math.round(eventGoal / progressPercent);

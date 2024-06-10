@@ -1,7 +1,7 @@
 const eventGoal = 10000000000;
 async function fetchProgress(){
   // Reverse engineerd by lachine
-  var res = await fetch('https://brawlstars.inbox.supercell.com/data/en/news/content.json', {
+  var res = await fetch('https://corsproxy.io/?https%3A%2F%2Fbrawlstars.inbox.supercell.com%2Fdata%2Fen%2Fnews%2Fcontent.jsonn', {
     method: 'GET',
     mode: 'cors',
     cache: 'no-cache',

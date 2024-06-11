@@ -3,14 +3,7 @@ async function fetchProgress(){
   var res = await fetch("https://brawlstars.inbox.supercell.com/data/en/news/content.json", {
     "credentials": "include",
     "headers": {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
-        "Accept": "*/*",
-        "Accept-Language": "pl,en-US;q=0.7,en;q=0.3",
         "Alt-Used": "brawlstars.inbox.supercell.com",
-        "Sec-Fetch-Dest": "empty",
-        "Sec-Fetch-Mode": "cors",
-        "Sec-Fetch-Site": "same-origin",
-        "Priority": "u=4",
         "Pragma": "no-cache",
         "Cache-Control": "no-cache"
     },

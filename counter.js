@@ -1,6 +1,6 @@
 const eventGoal = 10000000000;
 async function fetchProgress(){
-  var res = await fetch("https://corsproxy.io/?https%3A%2F%2Fbrawlstars.inbox.supercell.com%2Fdata%2Fen%2Fnews%2Fcontent.json", {
+  var res = await fetch("https://brawlstars.inbox.supercell.com/data/en/news/content.json", {
     "credentials": "include",
     "headers": {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0",
